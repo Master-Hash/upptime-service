@@ -31,6 +31,9 @@ sites:
       - 404
   - name: assets
     url: assets.hash.memorial
+    expectedStatusCodes:
+      - 200
+      - 404
   - name: chatbot
     url: chatbot.hash.memorial
   - name: pastebin
